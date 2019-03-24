@@ -1,0 +1,7 @@
+.box--youtube .box__background__overlay{
+  display: none;
+}
+.youtube__frame {
+  width:100%;
+  height: 100%;
+}

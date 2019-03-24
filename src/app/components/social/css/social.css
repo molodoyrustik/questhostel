@@ -1,0 +1,51 @@
+.social {
+  display: block;
+  position: relative;
+  z-index: 10;
+  font-size: 20px;
+  -webkit-transition: easy 0.5s;
+  -moz-transition: easy 0.5s;
+  -ms-transition: easy 0.5s;
+  -o-transition: easy 0.5s;
+  transition: easy 0.5s;
+  margin: 20px 50px 0 0;
+  /* Position */
+  /* Templates */
+}
+.social.social-right {
+  float: right;
+}
+.social.social-left {
+  float: left;
+}
+.social .social__link {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 15px 0 0;
+}
+.social .social__link.social__link-last,
+.social .social__link.social__link-single {
+  margin: 0;
+}
+.social .social__link.social__link--facebook {
+  font-size: 20px;
+}
+.social .social__link.social__link--vk {
+  margin-top: -4px;
+  font-size: 23px;
+}
+.social.social--white .social__link {
+  color: #ffffff;
+}
+.social.social--white .social__link.social__link--instagram:hover {
+  color: #dc287f;
+}
+.social.social--white .social__link.social__link--vk:hover {
+  color: #4e729a;
+}
+.social.social--white .social__link.social__link--facebook:hover {
+  color: #3b5998;
+}
+.social.social--white .social__link.social__link--twitter:hover {
+  color: #00aced;
+}

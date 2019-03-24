@@ -1,0 +1,16 @@
+.box--history .box__background .box__background__overlay {
+  background-color: rgba(0,0,0,0.85);
+}
+.box--history .box__section.box__section-content {
+  height: 60%;
+}
+.history {
+  color:#ffffff;
+
+  text-align: justify;
+}
+.history__section {
+  margin:0 0 20px 0;
+
+  font-size: 20px;
+}

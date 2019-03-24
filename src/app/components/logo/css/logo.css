@@ -1,0 +1,27 @@
+.logo {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  z-index: 10;
+}
+.logo.logo-50 {
+  width: 50px;
+}
+.logo.logo-60 {
+  width: 60px;
+}
+.logo.logo-70 {
+  width: 70px;
+}
+.logo.logo-100 {
+  width: 100px;
+}
+.logo.logo--right {
+  float: right;
+}
+.logo.logo--left {
+  float: left;
+}
+.logo .logo__src {
+  width: 100%;
+}

@@ -1,0 +1,27 @@
+*{
+  border:0;
+  outline:0;
+
+  margin:0;
+  padding:0;
+
+  font-family: Roboto,sans-serif;
+  font-weight: 100;
+}
+
+html,
+body,
+.boot{
+  height:100%;
+
+  display:block;
+
+  position: relative;
+
+  background-color:#000000;
+
+  color:#ffffff;
+}
+.page {
+  height: 100%;
+}

@@ -1,0 +1,14 @@
+.layout{
+  margin:0 auto;
+
+  min-width: 1024px;
+  height: 100%;
+
+  position: relative;
+
+  font-size:0;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}

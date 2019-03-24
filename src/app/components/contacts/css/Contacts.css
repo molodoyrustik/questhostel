@@ -1,0 +1,78 @@
+.box--contacts .box__background .box__background__overlay {
+  display: none;
+}
+.box--contacts .box__background {
+  z-index: 20;
+}
+.box--contacts .box__section.box__section-content {
+  text-align: center;
+
+  height: 0;
+}
+.contacts--map { height: 100%; }
+.contacts--map__point {
+  font-size: 40px;
+
+  color:#d64c4c;
+}
+.contacts--info {
+  position: relative;
+
+  top:-200px;
+
+  display: inline-block;
+
+  padding:20px;
+
+  background-color:rgba(0,0,0,0.9);
+
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+
+  text-align: left;
+
+  z-index: 40;
+}
+.contacts--info__section {
+  font-size: 16px;
+
+  margin:0 0 10px 0;
+}
+.contacts--info__section-logo {
+  margin:0 0 30px 0;
+}
+.contacts--info__section--last {
+  margin:0;
+}
+.contacts__logo {
+  width: 400px;
+}
+.contacts__icon {
+  display: inline-block;
+  vertical-align: middle;
+
+  width: 30px;
+  margin:0 10px 0 0;
+
+  font-size: 25px;
+
+  text-align: center;
+}
+.contacts__link {
+  display: inline-block;
+  vertical-align: middle;
+
+  color:#ffffff;
+
+  text-decoration: none;
+
+  cursor: pointer;
+
+  -webkit-transition: linear 0.2s;
+  -o-transition: linear 0.2s;
+  transition: linear 0.2s;
+}
+.contacts__link:hover {
+  color:#d64c4c;
+}

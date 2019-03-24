@@ -1,0 +1,41 @@
+.title {
+  display: inline-block;
+  font-weight: 100;
+  font-family: Roboto, sans-serif;
+  letter-spacing: -1px;
+  text-align: left;
+}
+.title.title-block {
+  display: block;
+  font-family: "Roboto", sans-serif;
+}
+.title.title--centered {
+  text-align: center;
+}
+.title.title--white {
+  color: #ffffff;
+}
+.title.title--black {
+  color: #232323;
+}
+.title.title-10 {
+  font-size: 10px;
+}
+.title.title-15 {
+  font-size: 15px;
+}
+.title.title-20 {
+  font-size: 20px;
+}
+.title.title-25 {
+  font-size: 25px;
+}
+.title.title-30 {
+  font-size: 30px;
+}
+.title.title-35 {
+  font-size: 35px;
+}
+.title.title-40 {
+  font-size: 40px;
+}
