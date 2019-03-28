@@ -30,13 +30,13 @@ class Contacts extends Component {
       <div className='contacts--map'>
         <GoogleMap yesIWantToUseGoogleMapApiInternals
           bootstrapURLKeys={{ key: 'AIzaSyB7XLDBaE0u-_pq5VLNgWPCPiZGTQyi57s' }}
-          defaultCenter={{ lat: 55.7531018, lng: 37.7683209 }}
+          defaultCenter={{ lat: 55.695339, lng: 37.652793 }}
           options={() => {
             return { styles: mapStyle, scrollwheel: false };
           }}
           zoom={15}
         >
-          <MapPoint lat={55.748121} lng={37.754850} />
+          <MapPoint lat={55.692403} lng={37.622679} />
         </GoogleMap>
       </div>
     );

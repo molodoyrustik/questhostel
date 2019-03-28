@@ -8,7 +8,7 @@
   text-align: center;
 }
 .welcome__section--image {
-  bottom: 150px;
+  bottom: 300px;
 }
 .welcome__section--description {
   bottom: 220px;
@@ -16,7 +16,7 @@
   font-size: 16px;
 }
 .welcome__section--button { bottom:20px; }
-.welcome__image{ width: 600px; }
+.welcome__image{ width: 1100px; }
 .welcome__description { width: 430px; }
 .welcome__scroll-link {
   font-size: 30px;

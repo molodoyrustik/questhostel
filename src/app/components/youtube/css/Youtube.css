@@ -21,6 +21,14 @@
   justify-content: space-between;
 }
 
+.history__youtube .box--history .box__background .box__background__overlay {
+  background-color: transparent!important;
+}
+
+.history__youtube .box--history .box__background .box__background__overlay {
+  background-color: transparent!important;
+}
+
 .history__title {
   display: inline-block;
   font-size: 28px;

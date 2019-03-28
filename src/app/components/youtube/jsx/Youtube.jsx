@@ -3,20 +3,17 @@ import { Link as ScrollLink } from 'react-scroll';
 
 import Box from '../../box';
 import Container from '../../container';
-import Button from '../../button';
+import BookingBtn from '../../BookingBtn';
 
 class Youtube extends Component {
 
   render() {
-    const overlay = <img src='/static/images/box/box--history__background.jpg' />;
+    const overlay = <img src='/static/images/box/box--youtube__background.jpg' />;
     // const header = <img className='box__title box__title-image' src='/static/images/menu/menu__item--history.png' alt='История' />;
     const header = <p className='history__title'>Варианты игры</p>;
     const footer = (
       <ScrollLink to='booking' smooth duration={500} offset={-70}>
-        <Button size={16}>
-          <i className='fa fa-stop' />
-          Забронировать
-        </Button>
+        <BookingBtn/>
       </ScrollLink>
     );
 

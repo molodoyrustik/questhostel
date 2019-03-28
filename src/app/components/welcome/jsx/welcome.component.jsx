@@ -3,7 +3,7 @@ import { Link as ScrollLink } from 'react-scroll';
 
 import Box from '../../box';
 import Slider from '../../slider';
-import Button from '../../button';
+import BookingBtn from '../../BookingBtn';
 
 class Welcome extends Component {
   render() {
@@ -24,10 +24,7 @@ class Welcome extends Component {
         </div>
         <div className='welcome__section welcome__section--button'>
           <ScrollLink className='welcome__scroll-link' to='booking' duration={500} offset={-50} smooth>
-            <Button size={16}>
-              <i className='fa fa-stop' />
-              Забронировать
-            </Button>
+            <BookingBtn />
           </ScrollLink>
         </div>
       </Box>

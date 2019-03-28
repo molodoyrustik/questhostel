@@ -10,17 +10,9 @@ class History extends Component {
   render() {
     const overlay = <img src='/static/images/box/box--history__background.jpg' />;
     const header = <img className='box__title box__title-image' src='/static/images/menu/menu__item--history.png' alt='История' />;
-    const footer = (
-      <ScrollLink to='booking' smooth duration={500} offset={-70}>
-        <Button size={16}>
-          <i className='fa fa-stop' />
-          Забронировать
-        </Button>
-      </ScrollLink>
-    );
 
     return (
-      <Box id='history' fullscreen overlay={overlay} header={header} footer={footer}>
+      <Box id='history' fullscreen overlay={overlay} header={header} >
         <Container>
           <div className='history'>
             <div className="history__section">

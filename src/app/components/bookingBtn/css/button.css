@@ -1,0 +1,55 @@
+.button {
+  display: inline-block;
+  vertical-align: middle;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+}
+.button:hover,
+.button:focus {
+  text-decoration: none;
+}
+.button + .button {
+  margin: 0 0 0 10px;
+}
+.button.button-16 {
+  font-size: 16px;
+  padding: 7px 15px;
+}
+.button.button-20 {
+  font-size: 20px;
+  padding: 10px;
+}
+.button.button--white {
+  background-color: #ffffff;
+  color: #232323;
+}
+.button.button--red {
+  background-color: #770000;
+  color: #ffffff;
+}
+.button.button--green {
+  background-color: #4DB657;
+  color: #ffffff;
+}
+.button.button--green:hover {
+  background-color: #4DC657;
+}
+
+.newClass {
+  background: red;
+}

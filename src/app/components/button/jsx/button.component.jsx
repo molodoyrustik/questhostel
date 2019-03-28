@@ -18,9 +18,9 @@ class Button extends Component {
   }
 
   render() {
-    const { size, template, onClick, children } = this.props;
+    const { size, template, onClick, children, newClass } = this.props;
 
-    const className = `button button-${size} button--${template}`;
+    const className = `button button-${size} button--${template} ${newClass}`;
 
     return (
       <button className={className} onClick={onClick}>
