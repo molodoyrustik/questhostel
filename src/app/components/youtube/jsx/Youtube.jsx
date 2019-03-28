@@ -3,7 +3,7 @@ import { Link as ScrollLink } from 'react-scroll';
 
 import Box from '../../box';
 import Container from '../../container';
-import BookingBtn from '../../BookingBtn';
+import BookingBtn from '../../bookingBtn';
 
 class Youtube extends Component {
 

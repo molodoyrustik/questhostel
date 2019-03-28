@@ -3,7 +3,7 @@ import { Link as ScrollLink } from 'react-scroll';
 
 import Box from '../../box';
 import Slider from '../../slider';
-import BookingBtn from '../../BookingBtn';
+import BookingBtn from '../../bookingBtn';
 
 class Welcome extends Component {
   render() {
