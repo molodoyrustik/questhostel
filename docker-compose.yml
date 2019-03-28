@@ -3,7 +3,7 @@ services:
   landing: 
     build: '.'
     ports: 
-      - 5000:5000
+      - 5500:5000
     volumes:
       - ./src:/usr/src/app/src
     command: npm run nodemon
