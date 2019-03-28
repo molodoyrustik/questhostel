@@ -13,7 +13,6 @@ import manifest from './manifest.json';
 
 const PORT = process.env.PORT || 5075;
 const server = express();
-
 const assets = {
   css: process.env.NODE_ENV === 'production' ? '/' + manifest['main.css'] : 'http://localhost:5062/build/bundle.css',
   js: process.env.NODE_ENV === 'production' ? '/' + manifest['main.js'] : 'http://localhost:5062/build/bundle.js',

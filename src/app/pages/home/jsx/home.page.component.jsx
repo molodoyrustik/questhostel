@@ -16,8 +16,8 @@ class HomePage extends Component {
         <Welcome />
         <History />
         <Youtube />
-        <Testimonials />
         <Booking />
+        <Testimonials />
         <Contacts />
       </section>
     );

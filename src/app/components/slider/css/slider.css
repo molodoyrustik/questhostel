@@ -68,8 +68,8 @@
 .slick-next{
   height:40px;
   width:40px;
-
-  z-index: 10;
+  position: absolute;
+  z-index: 30;
 }
 .slick-prev{left:50px;}
 .slick-next{right:50px;}

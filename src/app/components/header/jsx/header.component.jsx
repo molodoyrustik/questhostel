@@ -59,8 +59,8 @@ class Header extends Component {
       position: 'right',
       template: 'white',
       links: [
-        'https://vk.com/horrorquestland',
-        'https://www.instagram.com/mirhorrorkvestov/'
+        'https://vk.com/questhostel2',
+        'https://www.instagram.com/quest_hostel2/'
       ]
     };
 

@@ -29,7 +29,7 @@ class Contacts extends Component {
     return (
       <div className='contacts--map'>
         <GoogleMap yesIWantToUseGoogleMapApiInternals
-          bootstrapURLKeys={{ key: 'AIzaSyCLW0jRi7yKxqg6Qs-DbeU40OTXH-vt6q0' }}
+          bootstrapURLKeys={{ key: 'AIzaSyB7XLDBaE0u-_pq5VLNgWPCPiZGTQyi57s' }}
           defaultCenter={{ lat: 55.7531018, lng: 37.7683209 }}
           options={() => {
             return { styles: mapStyle, scrollwheel: false };
@@ -54,7 +54,7 @@ class Contacts extends Component {
           </div>
           <div className='contacts--info__section contacts--info__section-address'>
             <i className='contacts__icon fa fa-map-marker' />
-            <span className='contacts__text'>М.Нагатинская, Варшавское шоссе, д.33 БЦ Ви-Арт</span>
+            <span className='contacts__text'>М.Нагатинская, Варшавское шоссе, д.33</span>
           </div>
           <div className='contacts--info__section contacts--info__section-mail'>
             <i className='contacts__icon fa fa-envelope' />
@@ -66,11 +66,11 @@ class Contacts extends Component {
           </div>
           <div className='contacts--info__section contacts--info__section-social'>
             <i className='contacts__icon fa fa-vk' />
-            <a className='contacts__link' href='https://vk.com/horrorquestland' target='_blank'>@horrorquestland</a>
+            <a className='contacts__link' href='https://vk.com/questhostel2' target='_blank'>@questhostel2</a>
           </div>
           <div className='contacts--info__section contacts--info__section-social contacts--info__section--last'>
             <i className='contacts__icon fa fa-instagram' />
-            <a className='contacts__link' href='https://instagram.com/mirhorrorkvestov' target='_blank'>@mirhorrorkvestov</a>
+            <a className='contacts__link' href='https://instagram.com/quest_hostel2' target='_blank'>@quest_hostel2</a>
           </div>
         </div>
       </Box>

@@ -5,6 +5,7 @@ import Slick from 'react-slick';
 import '../../../../../node_modules/slick-carousel/slick/slick.css';
 import '../../../../../node_modules/slick-carousel/slick/slick-theme.css';
 
+
 class Slider extends Component {
 
   static propTypes = {
@@ -14,14 +15,14 @@ class Slider extends Component {
   }
 
   render() {
-    const { tabs, dotsLine, autoplay } = this.props;
+    const { tabs, dotsLine, autoplay, arrows } = this.props;
 
     let settings = {
       className: 'slider',
       dots: true,
       infinite: true,
       speed: 1000,
-      arrows: false
+      arrows: arrows || false,
     };
 
     if (dotsLine) {
