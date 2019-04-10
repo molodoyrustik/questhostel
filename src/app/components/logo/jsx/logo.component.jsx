@@ -20,7 +20,7 @@ class Logo extends Component {
 
     return (
       <div className={className}>
-        <img className='logo__src' src={`/static/images/share/logo--${this.props.type}.png`} alt='Квест Хостел | Реалистичный хоррор квест' />
+        <img className='logo__src' src={`/static/images/share/header-logo.png`} alt='Квест Хостел | Реалистичный хоррор квест' />
       </div>
     );
   }

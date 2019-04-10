@@ -30,7 +30,7 @@ class Contacts extends Component {
       <div className='contacts--map'>
         <GoogleMap yesIWantToUseGoogleMapApiInternals
           bootstrapURLKeys={{ key: 'AIzaSyB7XLDBaE0u-_pq5VLNgWPCPiZGTQyi57s' }}
-          defaultCenter={{ lat: 55.695339, lng: 37.652793 }}
+          defaultCenter={{ lat: 55.697253, lng: 37.633042 }}
           options={() => {
             return { styles: mapStyle, scrollwheel: false };
           }}
@@ -50,11 +50,11 @@ class Contacts extends Component {
       <Box id='contacts' fullscreen overlay={overlay} header={header}>
         <div className='contacts--info'>
           <div className='contacts--info__section contacts--info__section-logo'>
-            <img className='contacts__logo' src='/static/images/share/logo--slogan.png' alt='Квест Хостел | Остросюжетный перфоманс'/>
+            <img className='contacts__logo' src='/static/images/share/footer-logo.png' alt='Квест Хостел | Остросюжетный перфоманс'/>
           </div>
           <div className='contacts--info__section contacts--info__section-address'>
             <i className='contacts__icon fa fa-map-marker' />
-            <span className='contacts__text'>М.Нагатинская, Варшавское шоссе, д.33</span>
+            <span className='contacts__text'>м.Нагатинская, Варшавское шоссе, д.33</span>
           </div>
           <div className='contacts--info__section contacts--info__section-mail'>
             <i className='contacts__icon fa fa-envelope' />
